@@ -5,6 +5,12 @@ This seed generator for Windows should a free and easy tool which does not steal
 
 It is open source under GPLv3 Licence.
 
+# Installation
+Simplest path is to [download the latest release](https://github.com/randtype/IotaSeedGenerator/releases) which is a [ClickOnce Setup](https://msdn.microsoft.com/de-de/vstudio/ms789088.aspx).
+
+Best is if you crosscheck the code and compile it by yourself. Minimal Requirements: [Visual Studio Community 2017](https://www.visualstudio.com/de/vs/community/) with .Net 4.6.1, Windows 10 (maybe with Windows 7 it will work too.).
+
+
 # Random generator
 - Internally it is based on the .Net's `System.Security.Cryptography.RandomNumberGenerator.Create()` method. This should be an cryptographic random number generator according to [MSDN](https://msdn.microsoft.com/en-us/library/2ae535c8(v=vs.110).aspx)
 
